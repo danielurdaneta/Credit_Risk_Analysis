@@ -6,7 +6,7 @@ The purpose of this project was to find a machine learning model that can predic
 
 ## Results
 
-As the amount high risk loans are disproportionately smaller than the amount of lowe risk loans, all this models use different kind of resampling.
+As the amount of high risk loans is disproportionately smaller than the amount of lower risk loans, all this models use different kinds of resampling.
 
 - Naive Random Oversampling
 
@@ -22,7 +22,7 @@ The model we created using the SMOTE oversamplimg algorithm deliver these result
 
 ![CR](https://user-images.githubusercontent.com/81272629/129459715-1358fb4d-390c-4b3d-b199-f9699b914b77.png)
 
-We can see a precision in high risk loans equally poor than the previous model, we also see a recall that is slightly worse, predicting correctly 63% of the high risk loans, there is an improvement in the accuracy (66%) that is due an improvement in predicting correctly low risk loans. As it is more important to us to predict most of high risk loans, we can argue this model is worse than the previous.
+We can see a precision in high risk loans equally poor than the previous model, we also see a recall that is slightly worse, predicting correctly 63% of the high risk loans, there is an improvement in the accuracy (66%) that is due an improvement in predicting correctly low risk loans. As it is more important to us to predict most of the high risk loans, we can argue this model is worse than the previous.
 
 - ClusterCentroids undersampling
 
@@ -31,7 +31,7 @@ We created this model using ClusterCentroids undersampling algotithm and got thi
 ![CR](https://user-images.githubusercontent.com/81272629/129460238-5d30499a-0440-4f7b-b56c-b09ec6609aaa.png)
 
 
-With this model we do not see any real improvements with results very similar to the Naive Random Oversampling model.
+With this model we do not see any real improvements, with results very similar to the Naive Random Oversampling model.
 
 
 - SMOTEENN
